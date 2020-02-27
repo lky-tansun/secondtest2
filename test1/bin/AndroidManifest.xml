@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.login.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.example.login.Login2">     
+        </activity>
+        <activity 
+            android:name="com.example.login.Zhuce">     
+        </activity>
+        <activity 
+            android:name="com.example.login.Zhuye">     
+        </activity>
+        <activity 
+            android:name="com.example.login.Zhuye2">     
+        </activity>
+        <activity 
+            android:name="com.example.yhgl.Yhgl">     
+        </activity>
+        <activity 
+            android:name="com.example.bmgl.Tjzw">     
+        </activity>
+        <activity 
+            android:name="com.example.bmgl.Bmgl">     
+        </activity>
+        <activity 
+            android:name="com.example.yggl.Yggl">     
+        </activity>
+        <activity 
+            android:name="com.example.yggl.Tjyg">     
+        </activity>
+        <activity 
+            android:name="com.example.ygcx.Ygcx">     
+        </activity>
+        <activity 
+            android:name="com.example.ygcx.Ygcx2">     
+        </activity>
+        <activity 
+            android:name="com.example.ygcx.Ygxx2">     
+        </activity>
+        <activity 
+            android:name="com.example.gzcx.Gzcx">     
+        </activity>
+        <activity 
+            android:name="com.example.gzcx.Gzcx2">     
+        </activity>
+        <activity 
+            android:name="com.example.yggl.Ygxx3">     
+        </activity>
+        <activity 
+            android:name="com.example.bmgl.Tjbm">     
+        </activity>
+        <activity 
+            android:name="com.example.bmgl.Bmgl2">     
+        </activity>
+        <activity 
+            android:name="com.example.bmgl.Zwxx">     
+        </activity>
+        <activity 
+            android:name="com.example.yhgl.Tjyh">     
+        </activity>
+        <activity 
+            android:name="com.example.gzgl.Gzgl">     
+        </activity>
+        <activity 
+            android:name="com.example.gzgl.Tjgz">     
+        </activity>
+        <activity 
+            android:name="com.example.ygdd.Ygdd">     
+        </activity>
+        <activity 
+            android:name="com.example.ygdd.Zwgg">     
+        </activity>
+        <activity 
+            android:name="com.example.ddcx.Ddcx">     
+        </activity>
+        <activity 
+            android:name="com.example.ddcx.Ddcx2">     
+        </activity>
+    </application>
+
+</manifest>
